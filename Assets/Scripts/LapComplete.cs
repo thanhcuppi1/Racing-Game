@@ -18,6 +18,15 @@ public class LapComplete : MonoBehaviour {
 	public int LapsDone;
 	public float RawTime;
 
+	public GameObject RaceFinish;
+
+
+	void Update(){
+		if (LapsDone == 3) {
+			RaceFinish.SetActive (true);
+		}
+	}
+
 	void OnTriggerEnter () {
 		LapsDone += 1;
 		RawTime = PlayerPrefs.GetFloat ("RawTime");
