@@ -1,0 +1,1301 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   30.0.15.1259
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Job\Unity\Racing Game\RacingGame_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Job\Unity\Racing Game\RacingGame_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Job\Unity\Racing Game\RacingGame_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Job\Unity\Racing Game\RacingGame_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Job\Unity\Racing Game\RacingGame_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Job\Unity\Racing Game\RacingGame_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Job\Unity\Racing Game\RacingGame_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\Job\Unity\Racing Game\RacingGame_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: D:\Job\Unity\Racing Game\RacingGame_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Job\Unity\Racing Game\RacingGame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Job\Unity\Racing Game\RacingGame_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Job\Unity\Racing Game\RacingGame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Job\Unity\Racing Game\RacingGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading D:\Job\Unity\Racing Game\RacingGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.327 seconds
+Platform assembly: D:\Job\Unity\Racing Game\RacingGame_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Job\Unity\Racing Game\RacingGame_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 144Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.594200 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 810 -> priority: 1 
+  Thread -> id: 2344 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.037800 ms
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 358.
+Total: 0.248400 ms (FindLiveObjects: 0.012300 ms CreateObjectMapping: 0.009400 ms MarkObjects: 0.214500 ms  DeleteObjects: 0.011800 ms)
+
+The referenced script on this Behaviour (Game Object 'CarWaypointBased') is missing!
+ 
+(Filename:  Line: 1754)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.364400 ms
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 900.
+Total: 2.581300 ms (FindLiveObjects: 0.082100 ms CreateObjectMapping: 0.018400 ms MarkObjects: 0.886600 ms  DeleteObjects: 1.593500 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at CarChoice.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.get_CurrentSpeed () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.ApplyDrive (Single accel, Single footbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.get_CurrentSpeed () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.ApplyDrive (Single accel, Single footbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityStandardAssets.Vehicles.Car.CarController.SteerHelper () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.Move (Single steering, Single accel, Single footbrake, Single handbrake) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarUserControl.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 437)
+
+Platform assembly: D:\Job\Unity\Racing Game\RacingGame_Data\Managed\Boo.Lang.dll (this message is harmless)
