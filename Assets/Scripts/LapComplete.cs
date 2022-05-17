@@ -28,7 +28,7 @@ public class LapComplete : MonoBehaviour {
 	}
 
 	void OnTriggerEnter (Collider other) {
-		if (other.tag == "Player") {
+		
 			LapsDone += 1;
 			RawTime = PlayerPrefs.GetFloat ("RawTime");
 			if (LapTimeManager.RawTime <= RawTime) { 
@@ -45,7 +45,7 @@ public class LapComplete : MonoBehaviour {
 				}
 
 				MilliDisplay.GetComponent<Text> ().text = "" + LapTimeManager.MilliCount;
-			}
+			
 			PlayerPrefs.SetInt ("MinSave", LapTimeManager.MinuteCount);
 			PlayerPrefs.SetInt ("SecSave", LapTimeManager.SecondCount);
 			PlayerPrefs.SetFloat ("MilliSave", LapTimeManager.MilliCount);
