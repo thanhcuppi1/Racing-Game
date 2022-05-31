@@ -16,7 +16,8 @@ public class RaceFinish : MonoBehaviour {
 		this.GetComponent<BoxCollider> ().enabled = false;
 		MyCar.SetActive (false);
 		CompleteTrig.SetActive (false);
-		CarController.m_Topspeed = 0.0f;
+		
+		//CarController.m_Topspeed = 0.0f;
 		MyCar.GetComponent<CarController> ().enabled = false;
 		MyCar.GetComponent<CarUserControl> ().enabled = false;
 		MyCar.SetActive (true);

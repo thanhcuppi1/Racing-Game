@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityStandardAssets.Vehicles.Car;
 
 public class Countdown : MonoBehaviour {
 
@@ -11,6 +12,9 @@ public class Countdown : MonoBehaviour {
 	public AudioSource LevelMusic;
 	public GameObject LapTimer;
 	public GameObject CarControls;
+	public CarController CarController;
+	public GameObject DreamCar;
+
 
 	void Start () {
 		StartCoroutine (CountStart ());		
@@ -37,8 +41,8 @@ public class Countdown : MonoBehaviour {
 		GoAudio.Play ();
 		LevelMusic.Play ();
 		LapTimer.SetActive (true);
-		CarControls.SetActive (true);
-
+		CarController.GetComponent<CarController>().enabled = true;
+		DreamCar.GetComponent<CarAIControl>().enabled = true;
 	}
 
 
