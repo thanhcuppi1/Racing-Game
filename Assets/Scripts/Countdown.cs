@@ -43,6 +43,7 @@ public class Countdown : MonoBehaviour {
 		LapTimer.SetActive (true);
 		CarController.GetComponent<CarController>().enabled = true;
 		DreamCar.GetComponent<CarAIControl>().enabled = true;
+	
 	}
 
 

@@ -4,22 +4,22 @@ using UnityEngine;
 #pragma warning disable 649
 namespace UnityStandardAssets.Vehicles.Car
 {
-    internal enum CarDriveType
+    internal enum CarDriveTypeAI
     {
         FrontWheelDrive,
         RearWheelDrive,
         FourWheelDrive
     }
 
-    internal enum SpeedType
+    internal enum SpeedTypeAI
     {
         MPH,
         KPH
     }
 
-    public class CarController : MonoBehaviour
+    public class CarControllerAI : MonoBehaviour
     {
-        [SerializeField] private CarDriveType m_CarDriveType = CarDriveType.FourWheelDrive;
+        [SerializeField] private CarDriveTypeAI m_CarDriveType = CarDriveTypeAI.FourWheelDrive;
         [SerializeField] private WheelCollider[] m_WheelColliders = new WheelCollider[4];
         [SerializeField] private GameObject[] m_WheelMeshes = new GameObject[4];
         [SerializeField] private WheelEffects[] m_WheelEffects = new WheelEffects[4];
@@ -31,7 +31,7 @@ namespace UnityStandardAssets.Vehicles.Car
         [SerializeField] private float m_ReverseTorque;
         [SerializeField] private float m_MaxHandbrakeTorque;
         [SerializeField] private float m_Downforce = 100f;
-        [SerializeField] private SpeedType m_SpeedType;
+        [SerializeField] private SpeedTypeAI m_SpeedType;
         [SerializeField] private float m_Topspeed = 200;
         [SerializeField] private static int NoOfGears = 5;
         [SerializeField] private float m_RevRangeBoundary = 1f;
@@ -83,13 +83,13 @@ namespace UnityStandardAssets.Vehicles.Car
             if (m_GearNum > 0 && f < downgearlimit)
             {
                 m_GearNum--;
-                FuelSytem.tfs.setMovement(false);
+                
             }
 
             if (f > upgearlimit && (m_GearNum < (NoOfGears - 1)))
             {
                 m_GearNum++;
-                FuelSytem.tfs.setMovement(true);
+                
             }
         }
 
@@ -183,14 +183,14 @@ namespace UnityStandardAssets.Vehicles.Car
             float speed = m_Rigidbody.velocity.magnitude;
             switch (m_SpeedType)
             {
-                case SpeedType.MPH:
+                case SpeedTypeAI.MPH:
 
                     speed *= 2.23693629f;
                     if (speed > m_Topspeed)
                         m_Rigidbody.velocity = (m_Topspeed/2.23693629f) * m_Rigidbody.velocity.normalized;
                     break;
 
-                case SpeedType.KPH:
+                case SpeedTypeAI.KPH:
                     speed *= 3.6f;
                     if (speed > m_Topspeed)
                         m_Rigidbody.velocity = (m_Topspeed/3.6f) * m_Rigidbody.velocity.normalized;
@@ -205,7 +205,7 @@ namespace UnityStandardAssets.Vehicles.Car
             float thrustTorque;
             switch (m_CarDriveType)
             {
-                case CarDriveType.FourWheelDrive:
+                case CarDriveTypeAI.FourWheelDrive:
                     thrustTorque = accel * (m_CurrentTorque / 4f);
                     for (int i = 0; i < 4; i++)
                     {
@@ -213,12 +213,12 @@ namespace UnityStandardAssets.Vehicles.Car
                     }
                     break;
 
-                case CarDriveType.FrontWheelDrive:
+                case CarDriveTypeAI.FrontWheelDrive:
                     thrustTorque = accel * (m_CurrentTorque / 2f);
                     m_WheelColliders[0].motorTorque = m_WheelColliders[1].motorTorque = thrustTorque;
                     break;
 
-                case CarDriveType.RearWheelDrive:
+                case CarDriveTypeAI.RearWheelDrive:
                     thrustTorque = accel * (m_CurrentTorque / 2f);
                     m_WheelColliders[2].motorTorque = m_WheelColliders[3].motorTorque = thrustTorque;
                     break;
@@ -315,7 +315,7 @@ namespace UnityStandardAssets.Vehicles.Car
             WheelHit wheelHit;
             switch (m_CarDriveType)
             {
-                case CarDriveType.FourWheelDrive:
+                case CarDriveTypeAI.FourWheelDrive:
                     // loop through all wheels
                     for (int i = 0; i < 4; i++)
                     {
@@ -325,7 +325,7 @@ namespace UnityStandardAssets.Vehicles.Car
                     }
                     break;
 
-                case CarDriveType.RearWheelDrive:
+                case CarDriveTypeAI.RearWheelDrive:
                     m_WheelColliders[2].GetGroundHit(out wheelHit);
                     AdjustTorque(wheelHit.forwardSlip);
 
@@ -333,7 +333,7 @@ namespace UnityStandardAssets.Vehicles.Car
                     AdjustTorque(wheelHit.forwardSlip);
                     break;
 
-                case CarDriveType.FrontWheelDrive:
+                case CarDriveTypeAI.FrontWheelDrive:
                     m_WheelColliders[0].GetGroundHit(out wheelHit);
                     AdjustTorque(wheelHit.forwardSlip);
 
