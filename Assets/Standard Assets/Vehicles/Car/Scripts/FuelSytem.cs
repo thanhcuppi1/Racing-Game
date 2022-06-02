@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class FuelSytem : MonoBehaviour
 {
+    public Slider FuelSlider;
     public float CurrentFuel = 100f;
     public Text FuelDisplay;
     bool CarIsMoving;
@@ -34,6 +35,7 @@ public class FuelSytem : MonoBehaviour
             }
         }
         FuelDisplay.text = "" + CurrentFuel;
+        FuelSlider.value = CurrentFuel / 100;
     }
     public void setMovement(bool YesOrNo)
     {
